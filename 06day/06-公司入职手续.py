@@ -1,0 +1,6 @@
+name=input("请输入你的姓名")
+title=input("请输入你的职位")
+ID_number=int(input("请输入你的身份证号码"))
+birthday=input("请输入你的出生日期")
+phone=input("请输入你的手机号码")
+print("我的名字叫%s \n 我的职位是%s \n 我的身份证号是%d \n 我的出生日期是%s \n 我的手机号码是%s \n"%(name,title,ID_number,birthday,phone))
