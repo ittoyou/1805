@@ -1,0 +1,52 @@
+print("名片管理系统".center(50,"*"))
+while True:
+	print("1:添加名片".center(50," "))
+	print("2:查找名片".center(50," "))
+	print("3:修改名片".center(50," "))
+	print("4:删除名片".center(50," "))
+	print("5:退出系统".center(50," "))
+	num = int(input("请选择功能"))
+	if num == 1:
+		d = {}
+		company = input("请输入公司名称")
+		address = input("请输入公司地址")
+		name = input ("请输入要添加的名字")
+		job = input("请输入要添加的职务")
+		phone = input("请输入联系方式")
+		d["company"] = company
+		d["address"] = address
+		d["name"] = name
+		d["job"] = job
+		d["phone"] = phone
+		list.append(d)
+		print(list)
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
